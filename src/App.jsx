@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import menuData from '../public/data.js';
-import './app.css'
+import './app.css';
 
 const CategorySection = ({ category, items }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,11 +75,17 @@ const App = () => {
         ))}
       </main>
 
-      {/* <footer className="bg-amber-600 text-white py-4 mt-8">
+      <footer className="bg-amber-600 text-white py-4 mt-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 Mi Restaurante. Todos los derechos reservados.</p>
+          <p>Av Libertador 7281</p>
+          <p>Av Figueroa Alcorta 7250</p>
+          <p>Virrey de Pino 1480</p>
         </div>
-      </footer> */}
+        <div>
+          <p>Seguinos en Nuestras RRSS</p>
+          <p>Instagram</p>
+        </div>
+      </footer>
     </div>
   );
 };

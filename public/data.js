@@ -135,17 +135,17 @@ const menuData = {
     ],
     "TARTAS (acompañadas con mix de hojas verdes)": [
         {
-            id: 16,
+            id: 22,
             name: "Jamon y Muzarella",
             price: 7.500
         },
         {
-            id: 17,
+            id: 23,
             name: "Calabaza y Muzarella",
             price: 7.500
         },
         {
-            id: 18,
+            id: 24,
             name: "Espinaca, queso azul, tomate cherry",
 
             price: 7.500
