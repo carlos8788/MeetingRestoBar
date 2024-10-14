@@ -13,7 +13,6 @@ return (
                 <article className='title-toast'>
                     <h2 className='text-5xl py-10'>Tortas & Delicias</h2>
                 </article>
-                {/* <img className='img-toast' src="/src/assets/bigtoast/btsinbg.webp" alt="" /> */}
             </section>
     {Object.entries(postreData).map(([category, items]) => (
         <CategoryDelicious key={category} category={category} items={items} />
