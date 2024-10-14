@@ -77,7 +77,7 @@ const menuData = {
             price: 7.900
         }
     ],
-    "Nuestros Sandwiches (pan de ciabatta)": [
+    "Nuestros Sandwiches": [
         {
             id: 13,
             name: "Buenos Aires",
@@ -104,13 +104,13 @@ const menuData = {
         },
         {
             id: 17,
-            name: "Mediano",
+            name: "Sandwich de milanesa(Carne o pollo) Mediano",
             description: "jamon y queso",
             price: 7.400
         },
         {
             id: 18,
-            name: "Completo",
+            name: "Sandwich de milanesa(Carne o pollo) Completo",
             description: "Jamon, queso huevo y tomate",
             price: 7.800
         },
@@ -122,18 +122,18 @@ const menuData = {
         },
         {
             id: 20,
-            name: "Mediano",
+            name: "Pan Arabe Mediano",
             description: "jamon, queso, tomate",
             price: 4.500
         },
         {
             id: 21,
-            name: "Completo",
+            name: "Pan Arabe Completo",
             description: "Jamon, queso huevo y tomate",
             price: 4.800
         }
     ],
-    "TARTAS (acompañadas con mix de hojas verdes)": [
+    "Tartas": [
         {
             id: 22,
             name: "Jamon y Muzarella",
@@ -149,6 +149,20 @@ const menuData = {
             name: "Espinaca, queso azul, tomate cherry",
 
             price: 7.500
+        }
+    ],
+    "Wraps": [
+        {
+            id: 25,
+            name: "Carne",
+            description: "desmechada, queso y vegetales asados",
+            price: 7.700
+        },
+        {
+            id: 26,
+            name: "Calabaza y Muzarella",
+            description: "berenjeas asadas, espinaca, cebolla",
+            price: 7.700
         }
     ]
 };

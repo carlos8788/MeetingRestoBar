@@ -1,0 +1,50 @@
+/* STYLE OF BIGTOAST */
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .img-toast{
+    width: 50%;
+    margin: 0 0 0 15%;
+}
+
+.toast-section{
+    min-width: 100%;
+}
+
+.title-toast{
+    width: 100%;
+    border-bottom: 8px solid #7d9266;
+    h2{
+        font-weight: 800;
+        color:#7d9266;
+    }
+    p{
+        font-weight: 700;
+    }
+}
+
+
+/* STYLE OIF BRUSQUETAS */
+
+.brusquetas-section{
+    min-width: 100%;
+}
+
+.title-brusquetas{
+    width: 100%;
+    border-bottom: 6px solid #a57d10;
+    h2{
+        font-weight: 800;
+        color:#a57d10;
+        margin: 2rem 0;
+    }
+    p{
+        font-weight: 700;
+    }
+}
+
+#card-brusquetas{
+    border-bottom: 2px solid #5c862e;
+}
+
+
+}

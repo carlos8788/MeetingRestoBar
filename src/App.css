@@ -18,8 +18,7 @@ rgb(125, 146, 102) olive */
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   text-align: center;
 }
 
@@ -33,8 +32,9 @@ rgb(125, 146, 102) olive */
 /* MAIN */
 
 @media screen and (min-width: 320px) and (max-width: 767px){
-  .container-main{
-    background-color: rgb(209, 182, 108);
+
+  #main-container{
+    width: 100vw;
   }
 
   .box-main{
@@ -46,6 +46,19 @@ rgb(125, 146, 102) olive */
       width: 50%;
     }
   }
+
+  /* .card-menu{
+    background-color: red;
+  }
+
+
+  .entrada{
+    background-color:blue;
+  }
+
+  .box-lunch :first-child{
+    background-color: green;
+  } */
 }
 
 
