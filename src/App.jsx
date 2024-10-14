@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import menuData from '../public/data.js';
-import './app.css';
+import './App.css';
 
 const CategorySection = ({ category, items }) => {
   const [isOpen, setIsOpen] = useState(false);
