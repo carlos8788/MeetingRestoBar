@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+
+.section-delicious{
+    background-color: #697f51;
+    border-radius: 50px 0 0 50px;
+    color: #f3f3f3;
+    margin: 2rem 0 0 0;
+    padding: 0 5% 10% 0;
+    overflow: hidden;
+}
+
+.title-postre{
+    border-top: 4px solid #f3f3f3;
+    margin: 1rem 0 0 15%;
+    width: 65%;
+    h2{
+        font-weight: 800;
+    }
+    p{
+        font-weight: 700;
+    }
+}
+
+.box-dessert{
+    background-color: rgba(243, 243, 243, 0.20);
+    justify-content: space-between;
+    border-radius: 0 10px 10px 0;
+    h3{
+        font-variant: small-caps;
+    }
+    p{
+        text-align: left;
+    }
+}
+
+.budin{
+    width: 100%;
+    justify-self: center;
+    padding: 0 20%;
+    img{
+        border-radius: 20px;
+        margin: 1.5rem 0 0 0;
+    }
+}
+
+.title{
+    font-variant: small-caps;
+}
+
+.box-description{
+    width: 100%;
+}
+
+.text-description{
+    font-size: 1em;
+    width: 100%;
+}
+
+}

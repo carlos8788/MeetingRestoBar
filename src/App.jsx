@@ -9,13 +9,15 @@ import Desayunos from './components/Desayunos';
 import BigToast from './components/BigToast';
 import Brusquetas from './components/Brusquetas';
 import Postres from './components/Postres';
+import Ensaladas from './components/Ensalada';
+import Coffe from './components/Coffe';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div id="main-container">
-      <header className="bg-amber-600 text-white shadow-md">
+      <header className="text-white shadow-md section-nav">
         <div className="container px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Meeting Resto&Bar</h1>
           <p>MENU</p>
@@ -60,6 +62,9 @@ const App = () => {
           <Tartas />
         </div>
         </section>
+        <div id="cafeteria" className="mb-12">
+          <Ensaladas />
+        </div>
         <section className='box-big-Toast'>
             <BigToast />
           </section>
@@ -68,6 +73,9 @@ const App = () => {
           </section>
         <section className='box-big-Toast'>
             <Postres />
+          </section>
+        <section className='box-big-Toast'>
+            <Coffe />
           </section>
       </main>
 

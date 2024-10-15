@@ -3,7 +3,6 @@ const sweetMenu = {
         {
             id: 1,
             name: "Budin de pan",
-            description: "Cremoso y exquisito budin de pan, acompañado con crema blanca y tentador dulce de leche",
             price: 4.500
         },
         {
@@ -48,14 +47,14 @@ const sweetMenu = {
         },
         {
             id: 10,
-            name: "Alfajor SIN TACC",
+            name: "Alfajor - SIN TACC",
             description: "consultar sabores",
             price: 2.100
         },
         {
             id: 11,
-            name: "Budines",
-            description: "Limon, Naranja, Banana y Arandanos, Amapola",
+            name: "Budines: ",
+            description: "(Limon, Naranja, Banana y Arandanos, Amapola)",
             price: 2.300
         },
         {

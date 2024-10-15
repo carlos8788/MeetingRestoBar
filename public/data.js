@@ -1,3 +1,5 @@
+// import salaDeluxe from './assets/ensaladas/casa.webp';
+
 const menuData = {
     "Entradas y Picadas": [
         {
@@ -163,6 +165,41 @@ const menuData = {
             name: "Calabaza y Muzarella",
             description: "berenjeas asadas, espinaca, cebolla",
             price: 7.700
+        }
+    ],
+    "Ensaladas": [
+        {
+            id: 27,
+            name: "Deluxe",
+            description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado con panko, mix de semillas.",
+            image: "/src/assets/ensaladas/deluxe.webp",
+            price: 8.200
+        },
+        {
+            id: 28,
+            name: "Caesar",
+            description: "Tiras de pollo grille, lechuga, queso en hebras, crutones de pan tostado y salsa caesar.",
+            price: 8.000
+        },
+        {
+            id: 29,
+            name: "De la casa",
+            description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahria y choclo.",
+            image: "/src/assets/ensaladas/casa.webp",
+            price: 8.600
+        },
+        {
+            id: 30,
+            name: "Meeting",
+            description: "Rucula, tomates cherry, tiras de jamon crudo, nueces, queso parmesano.",
+            // image: "/src/assets/ensaladas/meeting.webp",
+            price: 8.300
+        },
+        {
+            id: 31,
+            name: "Gourmet",
+            description: "Lechuga, pollo crocante, tomates secos y palta. Acompañado con salsa de yogurt.",
+            price: 8.300
         }
     ]
 };
