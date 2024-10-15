@@ -9,7 +9,7 @@ const Postres = () => {
     };
 
 return (
-    <section  className="section-delicious">
+    <section id="tortas"  className="section-delicious">
             <section className='flex'>
                 <article className='title-postre'>
                     <h2 className='text-5xl py-10'>Tortas & Delicias</h2>

@@ -9,12 +9,12 @@ const Tartas = () => {
   };
 
   return (
-    <div>
+    <section id="tartas">
       <h1 className="text-2xl font-bold mb-4">Tartas y Wraps</h1>
       {Object.entries(tartasData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
-    </div>
+    </section>
   );
 };
 

@@ -8,7 +8,7 @@ const BigToast = () => {
     };
 
 return (
-    <section>
+    <section id="toast" className='pb-10'>
             <section className='flex toast-section'>
                 <article className='title-toast'>
                     <h2 className='text-5xl'>Big Toast</h2>

@@ -9,7 +9,7 @@ const Ensaladas = () => {
     };
 
 return (
-    <section>
+    <section id="ensaladas">
             <section className='brusquetas-section'>
                 <article className='title-brusquetas'>
                     <h2 className='text-5xl'>Ensaladas de la Casa</h2>

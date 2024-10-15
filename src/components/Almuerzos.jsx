@@ -8,12 +8,12 @@ const Almuerzos = () => {
   };
 
   return (
-    <div>
+    <section id="almuerzos">
       <h1 className="text-2xl font-bold mb-4">Nuestros Platos</h1>
       {Object.entries(almuerzosData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
-    </div>
+    </section>
   );
 };
 

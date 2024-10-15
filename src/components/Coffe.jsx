@@ -9,7 +9,7 @@ const Coffe = () => {
     };
 
 return (
-    <section  className="section-coffe mt-10 py-10 text-white">
+    <section id="cafe" className="section-coffe mt-10 py-10 text-white">
             <section className='flex'>
                 <article className='title-postre'>
                     <h2 className='text-5xl py-5'>Cafeteria</h2>
@@ -21,9 +21,9 @@ return (
     <article>
         <div className="py-5">
         <h1>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</h1>
-        <p>Tenemos Promo de Cafeteria y MediaLunas</p>
+        <p>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
         </div>
-        <img src="/src/assets/meriendas/medialunas.png" alt="" />
+        <img src="/src/assets/meriendas/medialunas.webp" alt="" />
     </article>
     </section>
 )

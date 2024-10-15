@@ -9,12 +9,12 @@ const Hamburguesas = () => {
   };
 
   return (
-    <div>
+    <section id="hamburguesas">
       <h1 className="text-2xl font-bold mb-4">Hamburguesas & Sandwiches</h1>
       {Object.entries(hamburguesas).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
-    </div>
+    </section>
   );
 };
 

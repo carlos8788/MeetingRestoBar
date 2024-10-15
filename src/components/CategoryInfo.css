@@ -6,6 +6,11 @@
     margin: 0 0 0 15%;
 }
 
+#toast{
+    background-color: rgba(243, 244, 246);
+    border-radius: 15px;
+}
+
 .toast-section{
     min-width: 100%;
 }
