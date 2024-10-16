@@ -53,7 +53,7 @@ const App = () => {
       </nav>
       <main className="container px-8 py-4">
       <section className="box-main">
-        <img src="/src/assets/logosinbg.webp" alt="" />
+        <img src="/public/source/logosinbg.webp" alt="" />
         <p className="text-center text-gray-600 mb-8">
           Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia.
           <p>Comes como en casa , pero sin lavar los platos !!</p>

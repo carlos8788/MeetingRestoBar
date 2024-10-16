@@ -23,7 +23,7 @@ return (
         <h1>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</h1>
         <p>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
         </div>
-        <img src="/src/assets/meriendas/medialunas.webp" alt="" />
+        <img src="/public/source/meriendas/medialunas.webp" alt="medialunas" />
     </article>
     </section>
 )

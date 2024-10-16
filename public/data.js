@@ -172,7 +172,7 @@ const menuData = {
             id: 27,
             name: "Deluxe",
             description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado con panko, mix de semillas.",
-            image: "/src/assets/ensaladas/deluxe.webp",
+            image: "/public/source/ensaladas/deluxe.webp",
             price: 8.200
         },
         {
@@ -185,7 +185,7 @@ const menuData = {
             id: 29,
             name: "De la casa",
             description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahria y choclo.",
-            image: "/src/assets/ensaladas/casa.webp",
+            image: "/public/source/ensaladas/casa.webp",
             price: 8.600
         },
         {

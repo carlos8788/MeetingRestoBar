@@ -24,7 +24,7 @@ return (
     <p className='text-3xl title font-extrabold'>Budin De Pan</p>
     <p className='text-description font-semibold'>Cremoso y exquisito, acompañado con crema blanca y tentador dulce de leche</p>
     </div>
-        <img src="/src/assets/delicias/budindos.PNG" alt="" />
+        <img src="/public/source/delicias/budincorrect.webp" alt="" />
     </section>
     </section>
 )

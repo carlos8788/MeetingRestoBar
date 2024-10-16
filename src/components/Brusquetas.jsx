@@ -10,7 +10,7 @@ const Brusquetas = () => {
 return (
     <section id="brusquetas" className='pb-10'>
             <section className='brusquetas-section'>
-            <img className='mx-6 my-4' src="/src/assets/bigtoast/brusqueta.webp" alt="" />
+            <img className='mx-6 my-4' src="/public/source/bigtoast/brusqueta.webp" alt="" />
                 <article className='title-brusquetas'>
                     <h2 className='text-5xl'>Brusquetas</h2>
                 </article>
