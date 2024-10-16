@@ -51,7 +51,7 @@ const App = () => {
           <li className="py-2"><a href="#bebidas" onClick={() => setIsMenuOpen(false)}>Bebidas</a></li>
         </ul>
       </nav>
-      <main className="container px-4 py-4">
+      <main className="container px-8 py-4">
       <section className="box-main">
         <img src="/src/assets/logosinbg.webp" alt="" />
         <p className="text-center text-gray-600 mb-8">

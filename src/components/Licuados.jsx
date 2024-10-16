@@ -12,7 +12,7 @@ return (
     <section id="licuados"  className="section-licuados">
             <section className='flex'>
                 <article className='title-postre'>
-                    <h2 className='text-5xl py-10'>Licuados & Exprimidos</h2>
+                    <h2 className='text-4xl py-4'>Licuados & Exprimidos</h2>
                 </article>
             </section>
     {Object.entries(licuadosData).map(([category, items]) => (

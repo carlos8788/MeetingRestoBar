@@ -12,7 +12,7 @@ return (
     <section id="tortas"  className="section-delicious">
             <section className='flex'>
                 <article className='title-postre'>
-                    <h2 className='text-5xl py-10'>Tortas & Delicias</h2>
+                    <h2 className='text-5xl py-4'>Tortas & Delicias</h2>
                 </article>
             </section>
     {Object.entries(postreData).map(([category, items]) => (
