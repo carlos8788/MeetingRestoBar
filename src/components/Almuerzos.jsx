@@ -1,6 +1,7 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
-import menuData from '../../public/data';
+import menuData from '../data/data';
+import casa from '../imgs/ensaladas/casa.webp'
 
 const Almuerzos = () => {
   const almuerzosData = {
@@ -13,6 +14,7 @@ const Almuerzos = () => {
       {Object.entries(almuerzosData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
+      <img src={casa} alt="casa" />
     </section>
   );
 };
