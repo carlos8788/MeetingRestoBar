@@ -1,5 +1,3 @@
-// import salaDeluxe from './assets/ensaladas/casa.webp';
-
 const menuData = {
     "Entradas y Picadas": [
         {
