@@ -63,26 +63,6 @@ const sweetMenu = {
             description: "Membrillo",
             price: 2.500
         },
-    ],
-    "Opciones Detox": [
-        {
-            id: 13,
-            name: "Green",
-            description: "Equilibrio perfecto: Espinaca, manzana verde, anana, pera y limon",
-            price: 3.900
-        },
-        {
-            id: 14,
-            name: "Orange",
-            description: "Nutricion y vitalidad: Zanahoria, naranja roja, jengibre y limon",
-            price: 3.900
-        },
-        {
-            id: 15,
-            name: "Fresh",
-            description: "Sabor y frescura: Limon, pepino, menta y gengibre",
-            price: 3.900
-        },
     ]
 }
 

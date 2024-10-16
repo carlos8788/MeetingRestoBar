@@ -1,0 +1,30 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+.section-licuados{
+    background-color: rgb(125, 146, 102);
+    color: #3b3f56;
+    margin: 1.5rem 0 0 0;
+    border-radius: 30px 0 0 30px;
+    padding: 0 5% 10% 0;
+}
+
+.box-licuados{
+    background-color: rgba(243, 243, 243, 0.20);
+    justify-content: space-between;
+    border-radius:0;
+    h3{
+        font-variant: small-caps;
+    }
+    p{
+        text-align: left;
+    }
+}
+
+
+.box-licuados:first-child {
+    border-radius: 0 10px 0 0;
+}
+.box-licuados:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+}

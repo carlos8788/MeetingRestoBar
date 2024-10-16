@@ -11,6 +11,9 @@ import Brusquetas from './components/Brusquetas';
 import Postres from './components/Postres';
 import Ensaladas from './components/Ensalada';
 import Coffe from './components/Coffe';
+import Licuados from './components/Licuados';
+import Detox from './components/Detox';
+import Bebidas from './components/Bebidas';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,6 +46,9 @@ const App = () => {
           <li className="py-2"><a href="#tortas" onClick={() => setIsMenuOpen(false)}>Tortas & Delicias</a></li>
           <li className="py-2"><a href="#cafe" onClick={() => setIsMenuOpen(false)}>Cafeteria</a></li>
           <li className="py-2"><a href="#ensaladas" onClick={() => setIsMenuOpen(false)}>Bebidas</a></li>
+          <li className="py-2"><a href="#licuados" onClick={() => setIsMenuOpen(false)}>Licuados&Exprimidos</a></li>
+          <li className="py-2"><a href="#detox" onClick={() => setIsMenuOpen(false)}>Detox</a></li>
+          <li className="py-2"><a href="#bebidas" onClick={() => setIsMenuOpen(false)}>Bebidas</a></li>
         </ul>
       </nav>
       <main className="container px-4 py-4">
@@ -84,6 +90,15 @@ const App = () => {
           </section>
         <section className='box-big-Toast'>
             <Coffe />
+          </section>
+        <section className='box-big-Toast'>
+            <Licuados />
+          </section>
+        <section className='box-big-Toast'>
+            <Detox />
+          </section>
+        <section className='box-big-Toast'>
+            <Bebidas />
           </section>
       </main>
 
