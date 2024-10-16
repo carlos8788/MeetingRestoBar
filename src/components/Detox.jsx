@@ -18,7 +18,7 @@ return (
     {Object.entries(detoxData).map(([category, items]) => (
         <CategoryDetox key={category} category={category} items={items} />
     ))}
-                <img className='my-10' src="/src/assets/orange.webp" alt="" />
+                <img className='my-10' src="/src/assets/orange.webp" alt="green" />
     </section>
 )
 }
